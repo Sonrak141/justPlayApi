@@ -8,7 +8,7 @@ app.use(express.json())
 
 app.use(cors()) // Use this after the variable declaration
 
-app.use('/src', gamesRoutes);
+app.use('/api', gamesRoutes);
 
 app.listen(3001)
 console.log("Server port", 3001)
